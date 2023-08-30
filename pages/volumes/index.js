@@ -1,5 +1,6 @@
 import { introduction } from "@/lib/data";
 import Link from "next/link";
+import { GlobalStyle } from "@/styles";
 
 import { volumes } from "@/lib/data";
 
@@ -18,6 +19,7 @@ export default function Page() {
           );
         })}
       </ul>
+      <GlobalStyle />
     </>
   );
 }
